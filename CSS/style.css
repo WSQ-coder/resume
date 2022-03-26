@@ -7,6 +7,10 @@ td {
 
 body {
   font-size: 22px;
+  line-height: 1.2em;
+}
+p {
+  margin-bottom: 0.7em;
 }
 
 .container {
@@ -14,6 +18,13 @@ body {
   margin: 0px auto 0px auto;
   min-height: 300px;
   padding: 20px 20px 10px 20px;
+}
+
+.card {
+  padding: 12px 20px 1px 20px;
+  min-height: 3em;
+  border-radius: 20px;
+  margin-bottom: 15px;
 }
 
 h1 {
@@ -34,7 +45,6 @@ h1 {
 
 .info-text {
   margin-left: 20px;
-  line-height: 1.2em;
 }
 
 .name {
@@ -51,11 +61,6 @@ h1 {
   font-size: 18px;
 }
 
-.card {
-  min-height: 3em;
-  border-radius: 20px;
-  margin-bottom: 15px;
-}
 .place-of-work {
 }
 .experience {
