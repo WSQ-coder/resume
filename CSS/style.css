@@ -63,14 +63,20 @@ h4,
 h5 {
   font-size: inherit;
   font-weight: inherit;
-} /******** end of Nullifier CSS ************/
+}
+/******************************************/
+/******** end of Nullifier CSS ************/
+/******************************************/
 
-div {
+/* Illuminated borders of Div and Table */
+div,
+table,
+td {
   border: 2px solid lightblue;
 }
 
 body {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .container {
@@ -98,4 +104,19 @@ h1 {
 
 .info-text {
   margin-left: 20px;
+  line-height: 1.2em;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.contact-title {
+  padding-right: 20px;
+  vertical-align: top;
+}
+.contact-text {
+  font-size: 18px;
 }
