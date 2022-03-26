@@ -35,12 +35,13 @@ h1 {
 
 .photo {
   width: 250px;
-  border-radius: 28px;
+  border-radius: 20px;
 }
 
 .info {
   display: flex;
   margin-top: 15px;
+  padding: 0 20px 0 0;
 }
 
 .info-text {
