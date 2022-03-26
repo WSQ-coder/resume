@@ -50,3 +50,15 @@ h1 {
 .contact-text {
   font-size: 18px;
 }
+
+.card {
+  min-height: 3em;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+.place-of-work {
+}
+.experience {
+}
+.skills {
+}
