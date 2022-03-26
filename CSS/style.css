@@ -68,3 +68,34 @@ h5 {
 div {
   border: 2px solid lightblue;
 }
+
+body {
+  font-size: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0px auto 0px auto;
+  min-height: 300px;
+  padding: 20px 20px 10px 20px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.photo {
+  width: 250px;
+  border-radius: 28px;
+}
+
+.info {
+  display: flex;
+  margin-top: 15px;
+}
+
+.info-text {
+  margin-left: 20px;
+}
