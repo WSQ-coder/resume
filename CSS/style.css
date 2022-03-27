@@ -8,7 +8,39 @@ td {
 body {
   font-size: 22px;
   line-height: 1.25em;
-  background: rgb(227, 229, 231);
+  background-color: rgb(226, 232, 232);
+}
+
+/* gradient for background  */
+.gradient {
+  position: relative;
+}
+.gradient:before {
+  content: "";
+  position: fixed;
+  z-index: -2;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+  background: #92a7e4;
+  background: -moz-linear-gradient(
+    -65deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(190, 189, 189) 94%
+  );
+  background: -webkit-linear-gradient(
+    -65deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(190, 189, 189) 94%
+  );
+  background: linear-gradient(
+    155deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(190, 189, 189) 94%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 );
 }
 
 .container {
@@ -19,6 +51,10 @@ body {
   border-radius: 25px;
   border: 1px solid #bdc5ce;
   background: #f5f3f5;
+  box-shadow: 9px 10px 25px rgb(0 0 0 / 50%);
+}
+.footer {
+  min-height: 1em;
 }
 
 h1 {
