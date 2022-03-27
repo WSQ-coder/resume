@@ -43,7 +43,8 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 );
 }
 p {
-  margin-bottom: 0.7em;
+  margin-top: 0.3em;
+  margin-bottom: 0.6em;
 }
 
 .container {
@@ -65,7 +66,6 @@ p {
   min-height: 3em;
   border-radius: 20px;
   margin-bottom: 15px;
-	}
 }
 
 h1 {
