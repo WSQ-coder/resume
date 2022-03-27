@@ -27,6 +27,22 @@ h2 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+ul {
+  padding: 10px 0 15px 30px;
+  border: 1px solid forestgreen;
+}
+ul ul {
+  padding: 3px 0 15px 20px;
+  border: 1px solid lightpink;
+}
+ul li {
+  list-style-type: disc;
+  line-height: 1.15em;
+}
 .photo {
   width: 250px;
   border-radius: 28px;
@@ -59,7 +75,7 @@ h2 {
   min-height: 3em;
   border-radius: 20px;
   margin-bottom: 15px;
-  padding: 13px;
+  padding: 10px 20px;
 }
 .place-of-work {
 }
