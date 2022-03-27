@@ -1,20 +1,23 @@
-/* Illuminated borders of Div and Table */
-div,
+/* Highlight borders of Div and Table */
+/* div,
 table,
 td {
   border: 2px solid lightblue;
-}
+} */
 
 body {
   font-size: 22px;
   line-height: 1.25em;
+  background: rgb(227, 229, 231);
 }
 
 .container {
   max-width: 700px;
-  margin: 0px auto 0px auto;
+  margin: 10px auto 10px auto;
   min-height: 300px;
-  padding: 20px 20px 10px 20px;
+  padding: 20px 26px 10px 26px;
+  border-radius: 25px;
+  background: #f5f3f5;
 }
 
 h1 {
@@ -33,24 +36,32 @@ h2 {
 }
 ul {
   padding: 10px 0 15px 30px;
-  border: 1px solid forestgreen;
+  /* border: 1px solid forestgreen; */
 }
 ul ul {
   padding: 3px 0 15px 20px;
-  border: 1px solid lightpink;
+  /* border: 1px solid lightpink; */
 }
 ul li {
   list-style-type: disc;
   line-height: 1.15em;
 }
+.card {
+  min-height: 3em;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  padding: 10px 20px;
+}
 .photo {
   width: 250px;
-  border-radius: 28px;
+  border-radius: 17px;
 }
 
 .info {
   display: flex;
   margin-top: 15px;
+  padding: 4px 20px 4px 3px;
+  background: #a3b2c0;
 }
 
 .info-text {
@@ -60,6 +71,7 @@ ul li {
 .name {
   font-size: 30px;
   font-weight: 700;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -71,15 +83,12 @@ ul li {
   font-size: 18px;
 }
 
-.card {
-  min-height: 3em;
-  border-radius: 20px;
-  margin-bottom: 15px;
-  padding: 10px 20px;
-}
 .place-of-work {
+  background: #f0e6c3;
 }
 .experience {
+  background: #d8e0f1;
 }
 .skills {
+  background: #ece6ce;
 }
