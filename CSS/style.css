@@ -6,7 +6,7 @@ td {
 } */
 
 body {
-  font-size: 22px;
+  font-size: 19px;
   line-height: 1.25em;
   background-color: rgb(226, 232, 232);
 }
@@ -42,6 +42,9 @@ body {
   );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=1 );
 }
+p {
+  margin-bottom: 0.7em;
+}
 
 .container {
   max-width: 700px;
@@ -55,6 +58,14 @@ body {
 }
 .footer {
   min-height: 1em;
+}
+
+.card {
+  padding: 17px 20px 1px 20px;
+  min-height: 3em;
+  border-radius: 20px;
+  margin-bottom: 15px;
+	}
 }
 
 h1 {
@@ -83,12 +94,7 @@ ul li {
   list-style-type: disc;
   line-height: 1.15em;
 }
-.card {
-  min-height: 3em;
-  border-radius: 20px;
-  margin-bottom: 15px;
-  padding: 10px 20px 20px;
-}
+
 .photo {
   width: 250px;
   border-radius: 17px;
