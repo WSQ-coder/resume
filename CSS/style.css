@@ -17,6 +17,7 @@ body {
   min-height: 300px;
   padding: 20px 26px 10px 26px;
   border-radius: 25px;
+  border: 1px solid #bdc5ce;
   background: #f5f3f5;
 }
 
@@ -50,7 +51,7 @@ ul li {
   min-height: 3em;
   border-radius: 20px;
   margin-bottom: 15px;
-  padding: 10px 20px;
+  padding: 10px 20px 20px;
 }
 .photo {
   width: 250px;
