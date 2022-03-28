@@ -1,9 +1,9 @@
 /* Highlight borders of Div and Table */
-/* div,
+div,
 table,
 td {
   border: 2px solid lightblue;
-} */
+}
 
 body {
   font-size: 19px;
@@ -115,17 +115,10 @@ ul li {
 .info-text {
   margin-left: 20px;
 }
-
-@media (max-width: 650px) {
-  .info {
-    display: block;
-    text-align: center;
-  }
-  table {
-    position: relative;
-    left: 50%;
-    margin-left: -190px;
-  }
+.flex-container-contact {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f0e6c3;
 }
 
 .name {
@@ -142,6 +135,7 @@ ul li {
 .contact-text {
   font-size: 18px;
   text-align: left;
+  max-width: 95%;
 }
 
 .place-of-work {
@@ -152,4 +146,16 @@ ul li {
 }
 .skills {
   background: #ece6ce;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  table {
+    position: relative;
+    left: 50%;
+    margin-left: -190px;
+  }
 }
