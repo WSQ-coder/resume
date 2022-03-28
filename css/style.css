@@ -99,18 +99,32 @@ ul li {
 
 .photo {
   width: 250px;
+  max-width: 100%;
+  height: auto;
   border-radius: 17px;
 }
 
 .info {
   display: flex;
   margin-top: 15px;
-  padding: 4px 20px 4px 3px;
+  padding: 4px 4px 4px 3px;
   background: #a3b2c0;
 }
 
 .info-text {
   margin-left: 20px;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  table {
+    position: relative;
+    left: 50%;
+    margin-left: -190px;
+  }
 }
 
 .name {
@@ -122,10 +136,11 @@ ul li {
 
 .contact-title {
   padding-right: 20px;
-  vertical-align: top;
+  vertical-align: baseline;
 }
 .contact-text {
   font-size: 18px;
+  text-align: left;
 }
 
 .place-of-work {
