@@ -1,10 +1,8 @@
-/* Highlight borders of Div and Table */
-div,
-table,
-td {
+/* DEBUGING: Highlight borders of Div and Table */
+/* div,table,td {
   border: 2px solid lightblue;
 }
-
+ */
 body {
   font-size: 19px;
   line-height: 1.25em;
@@ -94,23 +92,17 @@ ul li {
   line-height: 1.15em;
 }
 
-.photo {
-  width: 100%;
-  max-width: 250px;
-  height: auto;
-  border-radius: 17px;
-}
 .wrapper {
   width: 100%;
   max-width: 250px;
   margin: 0 auto;
 }
-.box {
+.box-photo {
   background: url("../img/my_photo.jpg") 0 0 / 100% auto no-repeat;
   border-radius: 17px;
+  padding-top: 100%;
   /* margin-left: auto; */
   /* margin-right: auto; */
-  padding-top: 100%;
   /* padding-bottom: 50%; */
 }
 
