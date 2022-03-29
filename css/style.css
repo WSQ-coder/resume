@@ -95,10 +95,23 @@ ul li {
 }
 
 .photo {
-  width: 250px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 250px;
   height: auto;
   border-radius: 17px;
+}
+.wrapper {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+}
+.box {
+  background: url("../img/my_photo.jpg") 0 0 / 100% auto no-repeat;
+  border-radius: 17px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  padding-top: 100%;
+  /* padding-bottom: 50%; */
 }
 
 .info {
