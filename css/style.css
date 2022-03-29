@@ -81,10 +81,6 @@ h2 {
   font-weight: 700;
 }
 
-h2 {
-  font-size: 26px;
-  font-weight: 700;
-}
 ul {
   padding: 10px 0 15px 30px;
   /* border: 1px solid forestgreen; */
@@ -118,7 +114,6 @@ ul li {
 .flex-container-contact {
   display: flex;
   flex-wrap: wrap;
-  background-color: #f0e6c3;
 }
 
 .name {
@@ -153,9 +148,27 @@ ul li {
     display: block;
     text-align: center;
   }
-  table {
-    position: relative;
-    left: 50%;
-    margin-left: -190px;
+  .info-text {
+    margin: 0 0 0 0;
+  }
+}
+@media (max-width: 400px) {
+  body {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .card {
+    padding: 10px 12px 1px 12px;
+  }
+  .contact-text {
+    font-size: 14px;
   }
 }
